@@ -1,29 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./src/images/favicon-32x32.png">
-  <link rel="stylesheet" href="./src/css/reset.css">
+  <link rel="stylesheet" href="./src/css/resets.css">
   <link rel="stylesheet" href="./src/css/variables.css">
   <link rel="stylesheet" href="./src/css/style.css">
-  <title>Frontend Mentor | Profile card component</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">
+  <title>Profile card</title>
 </head>
+
 <body>
   <main class="container">
     <div class="card">
-      <div class="profile-informations">
-        <img src="./src/images/profile_photo.png" alt="Profile photo">
-        <p>Wesley Alvarenga <span class="age">30</span></p>
-        <span class="city">Cordeirópolis</span>
+      <div class="card-detail">
+        <div class="profile-informations">
+          <img src="./src/images/profile_photo.png" alt="Profile photo">
+          <p>Wesley Alvarenga <span class="age">30</span></p>
+          <span class="city">Cordeirópolis</span>
+        </div>
       </div>
       <hr>
       <ul class="profile-numbers">
-        <li class="info"><p class="counter"></p><span class="social-type"></span></li>
-        <li class="info"><p class="counter"></p><span class="social-type"></span></li>
-        <li class="info"><p class="counter"></p><span class="social-type"></span></li>
+        <li class="info">
+          <p class="counter">13k</p>
+          <span class="social-type">Followers</span>
+        </li>
+        <li class="info">
+          <p class="counter">568</p>
+          <span class="social-type">Likes</span>
+        </li>
+        <li class="info">
+          <p class="counter">257</p>
+          <span class="social-type">Photos</span>
+        </li>
       </ul>
     </div>
   </main>
 </body>
+
 </html>
